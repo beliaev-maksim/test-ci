@@ -18,8 +18,8 @@ jobs:
         fetch-depth: 1
 
     - name: Install dependencies
-        run: |
-          python -m pip install jira
+      run: |
+        python -m pip install jira
 
     - name: Unittests
       run: |
