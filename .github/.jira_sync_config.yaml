@@ -1,0 +1,16 @@
+settings:
+  components:
+    - IoT
+    - DACH TT
+  labels:
+  add_gh_comment: false
+  add_gh_synced_label: true
+  sync_description: true
+  sync_comments: true
+  epic_key: "MTC-372"
+  jira_project_key: "MTC"
+  status_mapping:
+    opened: Backlog
+    closed: done
+  label_mapping:
+    enhancement: Story
